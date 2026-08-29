@@ -5,24 +5,17 @@ import * as Location from 'expo-location';
 
 const CIUDADES_PRUEBA = [
   { nombre: 'Local (GPS)', lat: null, lon: null },
-  // Base McMurdo
-  { nombre: 'Antártida', lat: -77.8463, lon: 166.6682 },
-  // EE.UU: El lugar más caluroso del mundo. 
-  { nombre: 'Valle de la Muerte', lat: 36.4500, lon: -116.8721 },
-  // India: El lugar más lluvioso del planeta (Monzones). 
-  { nombre: 'Cherrapunji', lat: 25.2702, lon: 91.7323 },
-  // Venezuela: Capital mundial de los relámpagos. 
-  { nombre: 'Maracaibo', lat: 9.7457, lon: -71.5587 },
-  // China: El mágico "Mar de Nubes".
-  { nombre: 'Huangshan', lat: 30.1265, lon: 118.1733 }, 
-  // Tórshavn: Uno de los lugares más nublados y oscuros del mundo.
-  { nombre: 'Islas Feroe', lat: 62.0014, lon: -6.7662 }, 
-  // Nepal: Altitud extrema. 
-  { nombre: 'Everest', lat: 27.9881, lon: 86.9250 },
-  // Calidad de Aire Peligrosa 
-  { nombre: 'Nueva Delhi', lat: 28.6139, lon: 77.2090 },
-  // Calidad de Aire Excelente
-  { nombre: 'Reikiavik', lat: 64.1466, lon: -21.9426 },
+  // Top 10 ciudades con mejor clima del mundo (HowStuffWorks)
+  { nombre: 'Islas Canarias', lat: 28.1235, lon: -15.4363 },
+  { nombre: 'San Diego', lat: 32.7157, lon: -117.1611 },
+  { nombre: 'Ciudad del Cabo', lat: -33.9249, lon: 18.4241 },
+  { nombre: 'Medellín', lat: 6.2442, lon: -75.5812 },
+  { nombre: 'Sídney', lat: -33.8688, lon: 151.2093 },
+  { nombre: 'Niza', lat: 43.7102, lon: 7.2620 },
+  { nombre: 'Honolulu', lat: 21.3069, lon: -157.8583 },
+  { nombre: 'Buenos Aires', lat: -34.6037, lon: -58.3816 },
+  { nombre: 'Viña del Mar', lat: -33.0245, lon: -71.5518 },
+  { nombre: 'Florianópolis', lat: -27.5954, lon: -48.5480 },
 ];
 
 export default function App() {
